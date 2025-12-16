@@ -12,5 +12,11 @@ public class MessagePrinter {
         System.out.println(getWelcomeMessage());
         System.out.println(getDateMessage());
         System.out.println("Learning remote repositories!");
+        System.out.println(getGoodbyeMessage());
     }
+
+    public static String getGoodbyeMessage() {
+        return "Thank you for using MessagePrinter!";
+    }
+
 }
