@@ -14,7 +14,6 @@ public class MessagePrinter {
         System.out.println(getDateMessage());
         System.out.println(getTimeMessage());
         System.out.println("Learning remote repositories!");
-        System.out.println(getGoodbyeMessage());
     }
 
 
